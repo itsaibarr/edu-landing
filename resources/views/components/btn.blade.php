@@ -3,12 +3,12 @@
 
 @php
 $classes = match($variant) {
-    'primary' => 'bg-gradient-to-r from-indigo-600 to-violet-500 text-white hover:opacity-90',
-    'secondary' => 'bg-white text-indigo-600 border border-indigo-200 hover:bg-indigo-50',
+    'primary' => 'bg-blue-600 hover:bg-blue-700 text-white',
+    'secondary' => 'bg-white text-slate-700 border border-slate-200 hover:bg-slate-50',
     'ghost' => 'text-slate-600 hover:text-slate-900',
-    default => 'bg-indigo-600 text-white hover:bg-indigo-700',
+    default => 'bg-blue-600 text-white hover:bg-blue-700',
 };
-$base = 'inline-flex items-center justify-center px-8 py-3 rounded-full font-semibold text-sm transition-all duration-200 cursor-pointer';
+$base = 'inline-flex items-center justify-center px-8 py-3 rounded-lg font-semibold text-sm transition-colors duration-150 cursor-pointer';
 @endphp
 
 @if($href)
