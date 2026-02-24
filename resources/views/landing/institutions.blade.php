@@ -206,4 +206,5 @@
     </div>
 </x-section>
 
+<x-landing-footer />
 @endsection
