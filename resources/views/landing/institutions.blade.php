@@ -3,6 +3,8 @@
 
 @section('title', 'Gradus for Schools & Universities — Make Student Growth Visible')
 @section('meta_description', 'Track student engagement and learning momentum without changing teacher workflows. Join our pilot.')
+@section('og_title', 'Gradus for Schools & Universities — Make Student Growth Visible')
+@section('og_description', 'Track student engagement and learning momentum without changing teacher workflows. Join our pilot.')
 
 @section('content')
 <x-landing-nav active="institutions" />

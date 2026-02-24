@@ -3,6 +3,8 @@
 
 @section('title', 'Gradus — Who Are You?')
 @section('meta_description', 'Gradus tracks student growth and engagement in real time. Choose your path.')
+@section('og_title', 'Gradus — Who Are You?')
+@section('og_description', 'Gradus tracks student growth and engagement in real time. Choose your path.')
 
 @section('content')
 <x-landing-nav />

@@ -3,6 +3,8 @@
 
 @section('title', 'Gradus for Students — See Your Real Progress')
 @section('meta_description', 'Track growth, consistency, and effort — not just grades. Join the waitlist.')
+@section('og_title', 'Gradus for Students — See Your Real Progress')
+@section('og_description', 'Track growth, consistency, and effort — not just grades. Join the waitlist.')
 
 @section('content')
 <x-landing-nav active="students" />
